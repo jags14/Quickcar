@@ -1,0 +1,32 @@
+{
+  "name": "quickcart",
+  "version": "1.0.0",
+  "description": "hyper delivery platform",
+  "keywords": [
+    "quick",
+    "commerce",
+    "e-commerce",
+    "nodejs",
+    "mongodb",
+    "redis"
+  ],
+  "homepage": "https://github.com/jags14/quickcart#readme",
+  "bugs": {
+    "url": "https://github.com/jags14/quickcart/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jags14/quickcart.git"
+  },
+  "license": "ISC",
+  "author": "Jagpat Singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
